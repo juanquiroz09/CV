@@ -40,9 +40,9 @@
     const getReferencia = async (event) => {
         const referenciaRaw = await fetch('http://localhost:4567/referencia');
         const {
-            group_three
+            group_two
         } = await referenciaRaw.json();
-        group_three.forEach(({
+        group_two.forEach(({
             referencias
         }) => {
             const template3 = `<div class="parrafo">${referencias}</div>`;

@@ -134,7 +134,7 @@ public class ApplicationMain {
     );
   }
 
-//Experiencias
+  //Experiencias
   public static Group createGroup() {
     Group group = new Group();
     group.addExperiencia(createExperiencia("Diseñador Web"));
