@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body {
+    padding: 1rem;
+    background: #E5E5E5;
+}
+.contenedor {
+    display: flex;
+    width: 847px;
+    height: 1800px;
+    background: #EDFDFB;
+}
+.titulo {
+    position: absolute;
+    width: 357px;
+    height: 70px;
+    margin-left: 103px;
+    margin-top: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+.titulo-exp {
+    width: 357px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 70px;
+    white-space: nowrap;
+    color: #000000;
+}
+.page-title {
+    display: flex;
+}
+.form-exp-cont {
+    display: flex;
+    justify-content:start;
+}
+h2 {
+    white-space: nowrap;
+    position: absolute;
+    width: 324px;
+    height: 47px;
+    margin-left: 103px;
+    margin-top: 143px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #9F9F9F;
+}
+.titulo-expe-index {
+    display: flex;
+    width: 231px;
+    height: 53px;
+    margin-left: 103px;
+    margin-top: 245px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #7B7B7B;
+}
+.img1 {
+    position: absolute;
+    left: 103px;
+    top: 334px;
+    border-radius: 50%;
+}
+.img2 {
+    position: absolute;
+    left: 103px;
+    top: 741px;
+    border-radius: 50%;
+}
+.button1 {
+    display: flex;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 618px;
+    top: 270px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #5ED4C6;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: initial;
+}
+.button2{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 110px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #5ED4C6;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    color: initial;
+}
+.form-save-btn {
+    display: flex;
+    width: 575px;
+    height: 30px;
+  
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #5ED4C6;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.button3 {
+    display: flex;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 643px;
+    top: 1010px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #5ED4C6;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: initial;
+}
+.button4 {
+    display: flex;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 540px;
+    margin-top: -90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #5ED4C6;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: initial;
+}
+input {
+    width: 568px;
+    height: 40px;
+}
+label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+.span1 {
+    width: 421px;
+    height: 40.65px;
+    left: 213px;
+    top: 334px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.span2 {
+    width: 452px;
+    height: 31.94px;
+    left: 213px;
+    top: 382.39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    white-space: nowrap;
+    color: #787878;
+}
+.span3 {
+    margin-right: 500px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+}
+.parrafo {
+    width: 526px;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.img3 {
+    left: 213px;
+    top: 635px;
+}
+.img4 {
+    left: 319px;
+    top: 635px;
+}
+.card1 {
+    position: absolute;
+    width: 636px;
+    height: 331px;
+    left: 213px;
+    top: 334px;
+}
+.card2 {
+    position: absolute;
+    width: 636px;
+    height: 342px;
+    left: 213px;
+    top: 741px;
+}
+.conoci {
+    position: absolute;
+    width: 303px;
+    height: 53px;
+    left: 103px;
+    top: 1000px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 53px;
+    color: #7B7B7B;
+}
+.card-cono {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-left: -250px;
+    margin-top: -200px;
+}
+.card-cono div img {
+    margin : 10px;
+    border-radius: 5px;
+    margin-top: 1258px;
+}
+.recom {
+    position: absolute;
+    width: 371px;
+    height: 53px;
+    left: 5px;
+    margin-top: -100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #7B7B7B;
+}
+.card3 {
+    position: absolute;
+    white-space: nowrap;
+    width: 638px;
+    height: 330px;
+    left: 105px;
+    top: 1400px;    
+}
+.card4 {
+    position: absolute;
+    white-space: nowrap;
+    width: 638px;
+    height: 330px;
+    left: 105px;
+    top: 1600px;   
+}
+.img5 {
+    border-radius: 75%;
+    margin-top: -50px;
+    float: right;
+   
+}
+.img6 {
+    border-radius: 75%;
+    margin-top: -50px;
+    float: right;
+
+}
